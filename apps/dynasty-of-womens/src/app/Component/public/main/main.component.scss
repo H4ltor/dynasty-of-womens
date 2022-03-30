@@ -30,7 +30,7 @@ a:focus {
 }
 
 .tm-section-pad-top {
-  padding-top: 135px;
+  padding-top: 70px;
 }
 
 .tm-text-primary {
@@ -222,7 +222,7 @@ video {
   background: #3496d8;
 }
 
-/* Introduction */
+/* A propos */
 
 .tm-section-title {
   font-size: 2.6rem;
@@ -230,9 +230,28 @@ video {
 }
 
 .tm-intro-text {
-  font-size: 1.2rem;
-  line-height: 1.4;
   margin-top: 42rem;
+}
+
+/* Valeurs */
+.val {
+  display: flex;
+  flex-flow: row;
+  margin: 10rem;
+}
+
+.tm-start-text {
+  font-size: 1.2rem;
+}
+
+.tm-mid-text {
+  font-size: 1.2rem;
+  margin-top: 100px;
+}
+
+.tm-end-text {
+  font-size: 1.2rem;
+  margin-top: 100px;
 }
 
 .tm-icon {
@@ -241,7 +260,7 @@ video {
   color: #3496d8;
 }
 
-/* Work */
+/* Valeurs */
 
 .tm-work-description {
   max-width: 650px;
@@ -276,6 +295,13 @@ video {
 .slick-dots li button:before {
   font-size: 26px;
 }
+
+/* Equipes */
+.pic {
+  margin-top: 20px;
+}
+
+
 
 /* Hover Effect */
 /* Common style */
